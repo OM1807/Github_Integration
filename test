@@ -1,0 +1,10 @@
+Sample change line for pull request
+distance = int(input("Enter the one way distance for the journey :"))
+fuelAmount_per_litre = int(input("Enter the amount of fuel per litre :"))
+milage = int(input("Enter the milage of the bike :"))
+
+average = fuelAmount_per_litre/milage
+amountTobePaid = average * (distance*2)
+
+print(amountTobePaid/4)
+print("True") if ((amountTobePaid/4)%5) == 0 else None
